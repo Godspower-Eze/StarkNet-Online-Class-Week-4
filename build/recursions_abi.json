@@ -1,0 +1,42 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "n",
+                "type": "felt"
+            }
+        ],
+        "name": "fibonacci",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "needle",
+                "type": "felt"
+            },
+            {
+                "name": "haystack_len",
+                "type": "felt"
+            },
+            {
+                "name": "haystack",
+                "type": "felt*"
+            }
+        ],
+        "name": "contains",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    }
+]

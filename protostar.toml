@@ -1,0 +1,16 @@
+["protostar.config"]
+protostar_version = "0.6.0"
+
+["protostar.project"]
+libs_path = "lib"
+
+["protostar.contracts"]
+main = [
+    "src/main.cairo",
+]
+revoked_reference = [
+    "src/revoked_reference.cairo",
+]
+recursions = [
+    "src/recursions.cairo",
+]
